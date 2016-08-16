@@ -1,7 +1,11 @@
 import { connect } from 'react-redux';
-import { UPDATE_TEXT, CLEAR_TEXT } from '../actions';
-import PageOne from '../components/pageOne';
 
+import { UPDATE_TEXT, CLEAR_TEXT } from '../actions';
+import Home from '../components/home';
+
+// We use Redux for all app state.
+// Any component that needs state is considered a container.
+// connect() returns a component that has Redux baked in.
 const mapState = (store) => ({
   textFieldValue: store.textField
 });
@@ -15,4 +19,4 @@ const mapDispatch = (dispatch) => ({
   }
 });
 
-export default connect(mapState, mapDispatch)(PageOne);
+export default connect(mapState, mapDispatch)(Home);
