@@ -8,7 +8,7 @@ describe('Client: reducers/textField.js', function () {
     expect(typeof textFieldReducer).to.equal('function');
   });
   
-  it('result of the textField reducer (when given undefined) should be the same as initialState.textField', function () {
+  it('textField reducer should return initialState.textField (when given undefined)', function () {
     expect(textFieldReducer(undefined, {})).to.equal(initialState.textField);
   });
 
