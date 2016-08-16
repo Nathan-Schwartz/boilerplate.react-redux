@@ -9,7 +9,7 @@ import Home from '../components/home';
 
 // The two functions below return objects.
 // The keys in each object are added to the child component specified on line 34
-// (in this case Home) as props. Within Home you could access them as: 
+// (in this case Home) as props. Within Home you could access them as:
 // this.props.textFieldValue
 // -or-
 // this.props.clearTextFieldValue()

@@ -5,15 +5,19 @@
   "scripts": {
     "start": "node server/server.js",
     "watch": "nodemon server/server.js --ignore ./client",
-    "lint": "node ./node_modules/eslint/bin/eslint.js ./client"
+    "lint": "node ./node_modules/eslint/bin/eslint.js ./client",
+    "test": "./node_modules/.bin/mocha --compilers .:babel-core/register test/server test/client --recursive"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "eslint": "^3.1.1",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-plugin-import": "^1.13.0",
     "eslint-plugin-jsx-a11y": "^2.1.0",
     "eslint-plugin-react": "^6.1.1",
-    "nodemon": "^1.10.0"
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.0",
+    "sinon": "^1.17.5"
   },
   "dependencies": {
     "babel-core": "^6.0.20",

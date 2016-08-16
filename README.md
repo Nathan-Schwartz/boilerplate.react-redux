@@ -9,11 +9,15 @@ It has been commented to make it easy to understand, and instructional for peopl
 ## To start the server
 > npm start
 
+## To run the tests
+> npm test
+
 ## To run the server (restart on changes)
 > npm run watch
 
 ## To lint the client folder
 > npm run lint
+
 
 
 If you have any suggestions or questions please feel free to open an issue.
