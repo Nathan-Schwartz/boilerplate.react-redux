@@ -29,8 +29,11 @@ boilerplates for help. This boilerplate seeks to educate the user as to what
 particular pieces do and how they add to a whole.
 
 
-- [Gitignore](#gitignore)
-- [Babel](#babel)
+#Comments and Documentation
+
+####Table of Contents
+1. [Gitignore](#gitignore)
+2. [Babel](#babel)
 
 #gitignore
 
