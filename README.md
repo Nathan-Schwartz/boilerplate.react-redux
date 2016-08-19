@@ -138,37 +138,37 @@ Many node built-in modules have been wrapped to work in the browser, but only
 when you explicitly require() or use their functionality.
 You can use browserify to organize your code and use third-party libraries.
 
-When you require() any of these modules, you will get a browser-specific shim\:
+When you require() any of these modules, you will get a browser-specific shim:
 
-assert
-buffer
-console
-constants
-crypto
-domain
-events
-http
-https
-os
-path
-punycode
-querystring
-stream
-string_decoder
-timers
-tty
-url
-util
-vm
+assert,
+buffer,
+console,
+constants,
+crypto,
+domain,
+events,
+http,
+https,
+os,
+path,
+punycode,
+querystring,
+stream,
+string_decoder,
+timers,
+tty,
+url,
+util,
+vm, and
 zlib
 
 Additionally, if you use any of these variables, they will be defined in the
 bundled output in a browser-appropriate way:
 
-process
-Buffer
-global - top-level scope object (window)
-\_\_filename - file path of the currently executing file
+process,
+Buffer,
+global - top-level scope object (window),
+\_\_filename - file path of the currently executing file, and
 \_\_dirname - directory path of the currently executing file
 
 Use a node-style require() to organize your browser code and load modules installed by npm.
