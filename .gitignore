@@ -1,4 +1,25 @@
+#node modules are self contained packages that normally don't get edited in an
+#application, so there is no reason to track these files. A simple npm install
+#will get the necessary modules on whatever computer needs them.
+
 node_modules
+
+#These are files created by running tests with npm-debug
+
 npm-debug.log
+
+#The desktop services store (for Mac OS systems, similar to desktop.ini in Windows)
+#is a file that stores custom attributes of its containing folder
+#Although primarily used by Finder, these files were envisioned as a more
+#general-purpose store of metadata about the display options of folders, such
+#as icon positions and view settings.
+
 .DS_Store
+
+#distribution, usually contains the compiled software. This does not need to be
+#tracked for the boilerplate's purposes
+
 dist
+
+#Lets just not track any logs (does not interfere with git log according to octocat)
+*.log*
