@@ -129,7 +129,7 @@ stage-0 for the latest JavaScript additions (post es2015)
 In node, there is a require() function for loading code from other files.
 
 Browserify will recursively analyze all the require() calls in your app in
-order to build a bundle you can serve up to the browser in a single <script> tag
+order to build a bundle you can serve up to the browser in a single \<script\> tag
 
 Browsers don't have the require method defined, but Node.js does. With Browserify
 you can write code that uses require in the same way that you would use it in Node.
