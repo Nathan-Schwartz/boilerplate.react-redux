@@ -28,6 +28,10 @@ and experienced developers looking to speedily spin up an app look to
 boilerplates for help. This boilerplate seeks to educate the user as to what
 particular pieces do and how they add to a whole.
 
+
+- [Gitignore](#gitignore)
+- [Babel](#babel)
+
 #gitignore
 
 **gitignore** - Specifies intentionally untracked files to ignore.
