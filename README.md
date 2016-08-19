@@ -165,10 +165,10 @@ zlib
 Additionally, if you use any of these variables, they will be defined in the
 bundled output in a browser-appropriate way:
 
-process, \n
-Buffer, \n
-global - top-level scope object (window), \n
-\_\_filename - file path of the currently executing file, and \n
+process;
+Buffer;
+global - top-level scope object (window);
+\_\_filename - file path of the currently executing file;
 \_\_dirname - directory path of the currently executing file
 
 Use a node-style require() to organize your browser code and load modules installed by npm.
